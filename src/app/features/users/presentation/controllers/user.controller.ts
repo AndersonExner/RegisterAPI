@@ -27,6 +27,6 @@ export class UserController {
 
         const users = await repository.getAllUsers();
 
-        return users;
+        return ok(res, { success: true, data: users });
     }
 }

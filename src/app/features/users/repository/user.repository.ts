@@ -1,7 +1,7 @@
 import { ILike } from "typeorm";
 import { AppdataSource } from "../../../shared/infra/db/data-source";
 import { UserEntity } from "../../../shared/infra/db/entities";
-import { NewUserDTO, UpdateUserDTO, UserDetailDTO } from "../dto";
+import { NewUserDTO, UserDetailDTO } from "../dto";
 import { randomUUID } from "crypto";
 
 export class UserRepository{
