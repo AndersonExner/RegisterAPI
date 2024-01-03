@@ -10,7 +10,7 @@ export default () => {
 
     router.post('/createUser', createUserValidator, userController.createUser)
 
-    router.put('/updateUser', updateUserValidator, userController.updateUser)
+    router.get('/updateUser', updateUserValidator, userController.getUsers)
 
     return router;
 }

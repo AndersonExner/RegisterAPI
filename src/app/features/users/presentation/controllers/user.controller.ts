@@ -20,4 +20,13 @@ export class UserController {
 
         return ok(res, { success: true });
     }
+
+    async getUsers(req: Request, res: Response){
+
+        const repository = new UserRepository();
+
+        const users = await repository.getAllUsers();
+
+        return users;
+    }
 }
