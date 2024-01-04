@@ -23,6 +23,15 @@ export class InitialCreate1704147954240 implements MigrationInterface {
                         type: 'varchar',
                         length: '100',
                         isNullable: true,
+                    },
+                    {
+                        name: 'created_at',
+                        type: 'timestamp',
+                        isNullable: false,
+                    },
+                    {
+                        name: 'updated_at',
+                        type: 'timestamp'
                     }
                 ],
             })

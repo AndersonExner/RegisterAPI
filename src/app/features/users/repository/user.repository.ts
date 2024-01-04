@@ -49,7 +49,7 @@ export class UserRepository{
             (user) => ({
             id: user.id,
             name: user.name,
-            email: user.telefone
+            telefone: user.telefone
             })
         )
 
