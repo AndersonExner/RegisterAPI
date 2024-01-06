@@ -14,3 +14,7 @@ export interface UpdateUserDTO {
     name?: string;
     telefone?: string;
 }
+
+export interface UserForApi{
+    name: string;
+}
